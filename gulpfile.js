@@ -5,10 +5,7 @@
         open = require('gulp-open'),
         less = require('gulp-less'),
         jade = require('gulp-jade'),
-        rename = require('gulp-rename'),
-        header = require('gulp-header'),
         path = require('path'),
-        tap = require('gulp-tap'),
         fs = require('fs'),
         paths = {
             root: './',
@@ -54,7 +51,6 @@
             .pipe(less({
                 paths: [ path.join(__dirname, 'less', 'includes') ]
             }))
-            .pipe(header(app.banner, { pkg : app.pkg, date: app.date }))
             .pipe(gulp.dest(paths.css))
             .pipe(connect.reload())
             .on('end', function () {
