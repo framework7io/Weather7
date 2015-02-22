@@ -1,9 +1,11 @@
-[![devDependency Status](https://david-dm.org/nolimits4web/framework7/dev-status.svg)](https://david-dm.org/nolimits4web/framework7#info=devDependencies)
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=nolimits4web&url=https://github.com/nolimits4web/framework7/&title=Framework7&language=JavaScript&tags=github&category=software)
+[![devDependency Status](https://david-dm.org/nolimits4web/weather7/dev-status.svg)](https://david-dm.org/nolimits4web/weather7#info=devDependencies)
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=nolimits4web&url=https://github.com/nolimits4web/weather7/&title=Weather7&language=JavaScript&tags=github&category=software)
 
 # Weather7
 
 Weather7 is the simple weather webapp that demonstrates how easy to create fully functioning iOS app with Framework7. With PhoneGap you can easily convert it to native iOS app.
+
+### Weather7 Features
 
 * Local Storage. All your personal weather data is stored in Local Storage, so you don't need to add weather locations each time you launch app.
 * Manifest Cache. Due to Manifest Cache you can still access app without internet connection. You need internet connection only when you need to update weather data.
